@@ -11,6 +11,15 @@ Router.map(function() {
         template: 'home'
     });
 
+    this.route('Videos', {
+        path: '/videos',
+        template: 'VideoList'
+    });
+    this.route('Team', {
+        path: '/team',
+        template: 'teamRoster'
+    });
+
     this.route('admin', {
         path:'/admin',
         template: 'accountsAdmin'
